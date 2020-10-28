@@ -4,9 +4,9 @@ spring:
       routes:
       - id: bin
         uri: http://httpbin.org:80
-      - id: hello
         predicates:
           - Path=/bin
+      - id: hello
         uri: http://localhost:9090
         predicates:
           - Path=/hello
