@@ -5,6 +5,8 @@ spring:
       - id: bin
         uri: http://httpbin.org:80
       - id: hello
+        predicates:
+          - Path=/bin
         uri: http://localhost:9090
         predicates:
           - Path=/hello
