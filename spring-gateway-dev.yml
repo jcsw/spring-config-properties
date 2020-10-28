@@ -7,7 +7,7 @@ spring:
         predicates:
           - Path=/forms/post
       - id: hello
-        uri: http://localhost:9050
+        uri: http://localhost:9060
         predicates:
           - Path=/hello
 
